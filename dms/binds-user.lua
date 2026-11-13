@@ -17,3 +17,6 @@ hl.bind(
     { description = "Launch work environment" }
 )
 hl.bind("SUPER + SHIFT + R", hl.dsp.exec_cmd("~/.config/hypr/scripts/record-region.sh"))
+hl.bind("SUPER + SHIFT + Z", hl.dsp.exec_cmd("~/.config/hypr/scripts/stitch-shots.sh add"))
+hl.bind("SUPER + SHIFT + X", hl.dsp.exec_cmd("~/.config/hypr/scripts/stitch-shots.sh done"))
+hl.bind("SUPER + SHIFT + D", hl.dsp.exec_cmd("~/.config/hypr/scripts/stitch-shots.sh clear"))
